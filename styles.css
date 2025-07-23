@@ -1,0 +1,86 @@
+body {margin:0; background: #ecf1d8;}
+
+.navbar {
+  overflow: hidden;
+  background: linear-gradient(to bottom, #242423, #37372d);
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #fcfbf1;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: Inter;
+}
+
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px; /* Used in this example to enable scrolling */
+  font-family: Inter;
+}
+
+.tight {
+    margin: 0;
+    line-height: 1;
+    padding-top: 5px;
+}
+
+.rectangle {
+    width: 200px;
+    height: 100px;
+    background-color: teal;
+    border-radius: 2px; /* optional: rounded corners */
+    margin: 50px auto; /* center horizontally with spacing on top */
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-between; /* spreads them out evenly */
+    gap: 20px; /* space between each box */
+  }
+  
+  .group {
+    flex: 1; /* each group gets equal width */
+    display: flex;
+    flex-direction: column; /* stack h1 on top of p */
+    align-items: flex-start; /* left-align text inside each group */
+    padding: 0 10px; /* optional: add some horizontal padding */
+  box-sizing: border-box;
+  }
+  
+  .group h1 {
+    margin: 0 0 8px 0; /* space below the heading */
+    font-size: 1.5rem;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+  }
+  
+  .group p {
+    margin: 0;
+    font-size: 1rem;
+    color: #555;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+  }
+
+  hr {
+    border: none;
+    height: 1.5px;
+    background-color: #3B3B1A;
+    width: 95%; /* or any width you want */
+    margin: 3px 0;
+    opacity: 25%;
+  }
+  
+  
+  
+  
